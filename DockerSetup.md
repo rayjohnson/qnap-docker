@@ -1,5 +1,5 @@
 
-# How to get you Mac to talk to docker on QNAP server
+# How to get your Mac to talk to docker on QNAP server
 
 To get your Mac to talk to the QNAP server we can use docker-machine
 to manage that connection.  That can be very useful if you are already using
