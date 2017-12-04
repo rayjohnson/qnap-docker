@@ -1,0 +1,16 @@
+# mosquitto set up
+version: '2.0'
+
+services:
+  openhab:
+    image: "eclipse-mosquitto"
+    container_name: mqtt
+    restart: always
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - data:/mosquitto
+
+volumes:
+  data:

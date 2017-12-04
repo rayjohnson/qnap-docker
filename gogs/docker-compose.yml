@@ -5,12 +5,12 @@ services:
     container_name: gogs
     restart: always
     volumes:
-      - gogs_data:/data
+      - data:/data
     ports:
       - "10022:22"
       - "10080:3000"
 
 volumes:
-  gogs_data:
+  data:
 
 
